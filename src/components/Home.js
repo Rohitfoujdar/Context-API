@@ -8,7 +8,7 @@ function Home() {
     },[])
   return (
     <div>
-      <h2>hii {a.name} and i am in {a.class}</h2>
+      <h2>hii {a.state.name} and i am in {a.state.class}</h2>
     </div>
   )
 }
